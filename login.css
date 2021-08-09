@@ -1,3 +1,38 @@
-#p {
-    color: aqua;
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+.bg{
+    background-image: url('image/mcu.jpg');
+  
+  /* Full height */
+  height: 100%; 
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.marquee{
+    border: 1px solid black ;
+    background-color: rgb(255, 0, 0);
+    opacity: 20%;
+    color: rgb(0, 37, 250);
+    height: 8%;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+@media (max-width:800px){
+    border: 1px solid black ;
+    background-color: blanchedalmond;
+    opacity: 20%;
+    color: rgb(233, 0, 0);
+    height: 5%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
