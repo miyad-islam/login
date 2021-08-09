@@ -3,7 +3,7 @@ body, html {
     margin: 0;
   }
 .bg{
-    background-image: url('Image\mcu.jpg');
+    background-image: url('Image/mcu.jpg');
   
   /* Full height */
   height: 100%; 
